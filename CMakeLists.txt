@@ -14,39 +14,6 @@
 # You should have received a copy of the GNU Lesser General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
-cmake_minimum_required(VERSION 2.6)
-set(COLOR_WIDGETS_LIBRARY ColorWidgets-qt5)
-set(PROJECT_VERSION "")
-project(${COLOR_WIDGETS_LIBRARY} CXX)
-
-# Qt
-find_package(Qt5Widgets REQUIRED)
-set(CMAKE_AUTOMOC OFF)
-set(CMAKE_AUTOUIC OFF)
-set(CMAKE_AUTORCC OFF)
-set(CMAKE_INCLUDE_CURRENT_DIR ON)
-
-# Debug
-set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -Wall -pedantic -Wextra")
-
-# C++11
-set(CMAKE_CXX_STANDARD 11)
-set(CMAKE_CXX_STANDARD_REQUIRED ON)
-# For some reason the above flags don't really work...
-if ("${CMAKE_CXX_COMPILER_ID}" STREQUAL "Clang" OR CMAKE_COMPILER_IS_GNUCXX)
-    include(CheckCXXCompilerFlag)
-    check_cxx_compiler_flag(--std=c++${CMAKE_CXX_STANDARD} STD_CXX)
-    if(STD_CXX)
-        set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} --std=c++${CMAKE_CXX_STANDARD}")
-    else()
-        message(SEND_ERROR "Requires C++${CMAKE_CXX_STANDARD} or better")
-    endif()
-else()
-    message(WARNING "Unrecognized compiler: ${CMAKE_CXX_COMPILER_ID}, make sure it supports C++${CMAKE_CXX_STANDARD}")
-endif()
-
-# Sources
-include_directories("${PROJECT_SOURCE_DIR}/include")
 
 set(SOURCES
 src/color_list_widget.cpp
@@ -98,5 +65,8 @@ qt5_wrap_ui(SOURCES src/color_dialog.ui src/color_palette_widget.ui)
 qt5_add_resources(SOURCES src/color_widgets.qrc)
 
 # Library
-add_library(${COLOR_WIDGETS_LIBRARY} ${SOURCES})
-target_link_libraries(${COLOR_WIDGETS_LIBRARY} Qt5::Widgets)
+add_library(ColorWidgets-qt5 ${SOURCES})
+target_link_libraries(ColorWidgets-qt5 Qt5::Widgets)
+target_include_directories (ColorWidgets-qt5 PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
+target_include_directories (ColorWidgets-qt5 PRIVATE ${CMAKE_CURRENT_BINARY_DIR})
+target_compile_definitions (ColorWidgets-qt5 PUBLIC QTCOLORWIDGETS_LIBRARY)

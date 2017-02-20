@@ -19,7 +19,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-#include "abstract_widget_list.hpp"
+#include "qt-color-widgets/abstract_widget_list.hpp"
 #include <QToolButton>
 #include <QVBoxLayout>
 #include <QHeaderView>

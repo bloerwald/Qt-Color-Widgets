@@ -197,7 +197,7 @@
   <customwidget>
    <class>color_widgets::Swatch</class>
    <extends>QWidget</extends>
-   <header>swatch.hpp</header>
+   <header>qt-color-widgets/swatch.hpp</header>
   </customwidget>
  </customwidgets>
  <resources/>

@@ -273,13 +273,13 @@
   <customwidget>
    <class>color_widgets::ColorPreview</class>
    <extends>QWidget</extends>
-   <header>color_preview.hpp</header>
+   <header>qt-color-widgets/color_preview.hpp</header>
    <container>1</container>
   </customwidget>
   <customwidget>
    <class>color_widgets::ColorWheel</class>
    <extends>QWidget</extends>
-   <header>color_wheel.hpp</header>
+   <header>qt-color-widgets/color_wheel.hpp</header>
    <container>1</container>
    <slots>
     <signal>colorSelected(QColor)</signal>
@@ -289,17 +289,17 @@
   <customwidget>
    <class>color_widgets::GradientSlider</class>
    <extends>QSlider</extends>
-   <header>gradient_slider.hpp</header>
+   <header>qt-color-widgets/gradient_slider.hpp</header>
   </customwidget>
   <customwidget>
    <class>color_widgets::HueSlider</class>
    <extends>color_widgets::GradientSlider</extends>
-   <header>hue_slider.hpp</header>
+   <header>qt-color-widgets/hue_slider.hpp</header>
   </customwidget>
   <customwidget>
    <class>color_widgets::ColorLineEdit</class>
    <extends>QLineEdit</extends>
-   <header>color_line_edit.hpp</header>
+   <header>qt-color-widgets/color_line_edit.hpp</header>
   </customwidget>
  </customwidgets>
  <resources/>

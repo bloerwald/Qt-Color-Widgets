@@ -19,7 +19,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-#include "color_palette.hpp"
+#include "qt-color-widgets/color_palette.hpp"
 #include <cmath>
 #include <QFile>
 #include <QTextStream>

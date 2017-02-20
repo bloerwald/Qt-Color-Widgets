@@ -22,7 +22,7 @@
 #ifndef COLOR_DELEGATE_HPP
 #define COLOR_DELEGATE_HPP
 
-#include "colorwidgets_global.hpp"
+#include "qt-color-widgets/colorwidgets_global.hpp"
 
 #include <QAbstractItemDelegate>
 

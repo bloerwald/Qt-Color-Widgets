@@ -20,7 +20,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-#include "color_preview.hpp"
+#include "qt-color-widgets/color_preview.hpp"
 
 #include <QStylePainter>
 #include <QStyleOptionFrame>

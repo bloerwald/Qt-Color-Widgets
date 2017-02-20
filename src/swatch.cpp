@@ -19,7 +19,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-#include "swatch.hpp"
+#include "qt-color-widgets/swatch.hpp"
 
 #include <cmath>
 #include <QPainter>

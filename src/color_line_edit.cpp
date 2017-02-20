@@ -19,7 +19,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-#include "color_line_edit.hpp"
+#include "qt-color-widgets/color_line_edit.hpp"
 
 #include <QDropEvent>
 #include <QDragEnterEvent>
@@ -29,7 +29,7 @@
 #include <QStyleOptionFrame>
 
 #include "color_utils.hpp"
-#include "color_names.hpp"
+#include "qt-color-widgets/color_names.hpp"
 
 namespace color_widgets {
 
@@ -158,7 +158,7 @@ void ColorLineEdit::dropEvent(QDropEvent *event)
 {
     if ( isReadOnly() )
         return;
-    
+
     if ( event->mimeData()->hasColor() )
     {
         setColor(event->mimeData()->colorData().value<QColor>());

@@ -20,7 +20,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-#include "color_dialog.hpp"
+#include "qt-color-widgets/color_dialog.hpp"
 #include "ui_color_dialog.h"
 
 #include <QDropEvent>

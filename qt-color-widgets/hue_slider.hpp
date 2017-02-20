@@ -23,7 +23,7 @@
 #ifndef HUE_SLIDER_HPP
 #define HUE_SLIDER_HPP
 
-#include "gradient_slider.hpp"
+#include "qt-color-widgets/gradient_slider.hpp"
 
 namespace color_widgets {
 
@@ -93,4 +93,3 @@ private:
 } // namespace color_widgets
 
 #endif // HUE_SLIDER_HPP
-

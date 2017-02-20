@@ -19,8 +19,8 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-#include "color_list_widget.hpp"
-#include "color_selector.hpp"
+#include "qt-color-widgets/color_list_widget.hpp"
+#include "qt-color-widgets/color_selector.hpp"
 
 namespace color_widgets {
 

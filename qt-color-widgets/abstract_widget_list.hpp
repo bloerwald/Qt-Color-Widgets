@@ -22,7 +22,7 @@
 #ifndef ABSTRACT_WIDGET_LIST_HPP
 #define ABSTRACT_WIDGET_LIST_HPP
 
-#include "colorwidgets_global.hpp"
+#include "qt-color-widgets/colorwidgets_global.hpp"
 
 #include <QSignalMapper>
 #include <QTableWidget>
@@ -33,7 +33,7 @@ class QCP_EXPORT AbstractWidgetList : public QWidget
 public:
     explicit AbstractWidgetList(QWidget *parent = 0);
     ~AbstractWidgetList();
-    
+
     /**
      *  \brief Get the number of items
      */

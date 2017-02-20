@@ -23,7 +23,7 @@
 #ifndef COLOR_PREVIEW_HPP
 #define COLOR_PREVIEW_HPP
 
-#include "colorwidgets_global.hpp"
+#include "qt-color-widgets/colorwidgets_global.hpp"
 
 #include <QWidget>
 
@@ -74,7 +74,7 @@ public:
     QSize sizeHint () const;
 
     void paint(QPainter &painter, QRect rect) const;
-    
+
 public Q_SLOTS:
     /// Set current color
     void setColor(const QColor &c);

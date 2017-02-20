@@ -22,7 +22,7 @@
 #ifndef COLOR_WHEEL_HPP
 #define COLOR_WHEEL_HPP
 
-#include "colorwidgets_global.hpp"
+#include "qt-color-widgets/colorwidgets_global.hpp"
 
 #include <QWidget>
 

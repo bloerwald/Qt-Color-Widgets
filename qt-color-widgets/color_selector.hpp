@@ -22,8 +22,8 @@
 #ifndef COLOR_SELECTOR_HPP
 #define COLOR_SELECTOR_HPP
 
-#include "color_preview.hpp"
-#include "color_wheel.hpp"
+#include "qt-color-widgets/color_preview.hpp"
+#include "qt-color-widgets/color_wheel.hpp"
 
 namespace color_widgets {
 
@@ -80,7 +80,7 @@ private:
 
     class Private;
     Private * const p;
-    
+
 };
 
 } // namespace color_widgets

@@ -19,7 +19,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-#include "color_wheel.hpp"
+#include "qt-color-widgets/color_wheel.hpp"
 
 #include <cmath>
 #include <QMouseEvent>

@@ -19,9 +19,9 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-#include "color_delegate.hpp"
-#include "color_selector.hpp"
-#include "color_dialog.hpp"
+#include "qt-color-widgets/color_delegate.hpp"
+#include "qt-color-widgets/color_selector.hpp"
+#include "qt-color-widgets/color_dialog.hpp"
 #include <QPainter>
 #include <QMouseEvent>
 

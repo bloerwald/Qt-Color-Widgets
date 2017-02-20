@@ -24,7 +24,7 @@
 
 #include <QWidget>
 #include <QPen>
-#include "color_palette.hpp"
+#include "qt-color-widgets/color_palette.hpp"
 
 namespace color_widgets {
 

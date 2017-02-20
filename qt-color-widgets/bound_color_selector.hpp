@@ -22,7 +22,7 @@
 #ifndef BOUND_COLOR_SELECTOR_HPP
 #define BOUND_COLOR_SELECTOR_HPP
 
-#include "color_selector.hpp"
+#include "qt-color-widgets/color_selector.hpp"
 
 namespace color_widgets {
 /**

@@ -19,9 +19,9 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-#include "color_palette_widget.hpp"
+#include "qt-color-widgets/color_palette_widget.hpp"
 #include "ui_color_palette_widget.h"
-#include "color_dialog.hpp"
+#include "qt-color-widgets/color_dialog.hpp"
 #include <QInputDialog>
 #include <QFileDialog>
 #include <QMessageBox>

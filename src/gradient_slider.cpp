@@ -20,7 +20,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-#include "gradient_slider.hpp"
+#include "qt-color-widgets/gradient_slider.hpp"
 
 #include <QPainter>
 #include <QStyleOptionSlider>

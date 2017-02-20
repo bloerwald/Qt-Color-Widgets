@@ -19,7 +19,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-#include "color_2d_slider.hpp"
+#include "qt-color-widgets/color_2d_slider.hpp"
 #include "color_utils.hpp"
 #include <QImage>
 #include <QPainter>

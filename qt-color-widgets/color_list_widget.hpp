@@ -22,8 +22,8 @@
 #ifndef COLOR_LIST_WIDGET_HPP
 #define COLOR_LIST_WIDGET_HPP
 
-#include "abstract_widget_list.hpp"
-#include "color_wheel.hpp"
+#include "qt-color-widgets/abstract_widget_list.hpp"
+#include "qt-color-widgets/color_wheel.hpp"
 
 namespace color_widgets {
 

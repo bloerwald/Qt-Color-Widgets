@@ -23,7 +23,7 @@
 #define COLOR_WIDGETS_COLOR_PALETTE_MODEL_HPP
 
 #include <QAbstractListModel>
-#include "color_palette.hpp"
+#include "qt-color-widgets/color_palette.hpp"
 
 namespace color_widgets {
 

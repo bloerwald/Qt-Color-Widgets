@@ -22,7 +22,7 @@
 #ifndef COLOR_WIDGETS_COLOR_2D_SLIDER_HPP
 #define COLOR_WIDGETS_COLOR_2D_SLIDER_HPP
 
-#include "colorwidgets_global.hpp"
+#include "qt-color-widgets/colorwidgets_global.hpp"
 #include <QWidget>
 
 namespace color_widgets {

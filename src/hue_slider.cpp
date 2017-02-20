@@ -20,7 +20,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-#include "hue_slider.hpp"
+#include "qt-color-widgets/hue_slider.hpp"
 
 namespace color_widgets {
 

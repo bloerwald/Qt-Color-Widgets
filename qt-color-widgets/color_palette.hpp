@@ -28,7 +28,7 @@
 #include <QObject>
 #include <QPair>
 #include <QPixmap>
-#include "colorwidgets_global.hpp"
+#include "qt-color-widgets/colorwidgets_global.hpp"
 
 namespace color_widgets {
 
@@ -100,7 +100,7 @@ public:
      * \brief Convert to a color table
      */
     Q_INVOKABLE QVector<QRgb> colorTable() const;
-    
+
     /**
      * \brief Creates a ColorPalette from a color table
      */

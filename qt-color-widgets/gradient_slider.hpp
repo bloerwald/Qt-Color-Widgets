@@ -23,7 +23,7 @@
 #ifndef GRADIENT_SLIDER_HPP
 #define GRADIENT_SLIDER_HPP
 
-#include "colorwidgets_global.hpp"
+#include "qt-color-widgets/colorwidgets_global.hpp"
 
 #include <QSlider>
 #include <QGradient>
@@ -95,7 +95,7 @@ public:
      * \returns QColor() con empty gradient
      */
     QColor lastColor() const;
-    
+
 protected:
     void paintEvent(QPaintEvent *ev);
 

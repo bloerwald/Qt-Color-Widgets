@@ -19,7 +19,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-#include "color_palette_model.hpp"
+#include "qt-color-widgets/color_palette_model.hpp"
 #include <QDir>
 #include <QList>
 #include <QRegularExpression>

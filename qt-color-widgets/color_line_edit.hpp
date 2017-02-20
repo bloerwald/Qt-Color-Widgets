@@ -22,7 +22,7 @@
 #ifndef COLOR_WIDGETS_COLOR_LINE_EDIT_HPP
 #define COLOR_WIDGETS_COLOR_LINE_EDIT_HPP
 
-#include "colorwidgets_global.hpp"
+#include "qt-color-widgets/colorwidgets_global.hpp"
 #include <QLineEdit>
 #include <QColor>
 

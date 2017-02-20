@@ -24,8 +24,8 @@
 
 #include <memory>
 #include <QWidget>
-#include "color_palette_model.hpp"
-#include "swatch.hpp"
+#include "qt-color-widgets/color_palette_model.hpp"
+#include "qt-color-widgets/swatch.hpp"
 
 namespace color_widgets {
 

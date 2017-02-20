@@ -16,48 +16,45 @@
 #
 
 set(SOURCES
-src/color_list_widget.cpp
-src/gradient_slider.cpp
-src/color_line_edit.cpp
-src/swatch.cpp
-src/bound_color_selector.cpp
-src/color_palette_widget.cpp
-src/color_palette_model.cpp
-src/color_2d_slider.cpp
 src/abstract_widget_list.cpp
-src/color_delegate.cpp
-src/color_widgets.qrc
-src/color_utils.cpp
-src/color_dialog.cpp
-src/color_palette.cpp
-src/color_selector.cpp
-src/color_preview.cpp
 src/alphaback.png
-src/color_utils.hpp
-src/hue_slider.cpp
-src/color_wheel.cpp
+src/bound_color_selector.cpp
+src/color_2d_slider.cpp
+src/color_delegate.cpp
+src/color_dialog.cpp
+src/color_line_edit.cpp
+src/color_list_widget.cpp
 src/color_names.cpp
+src/color_palette.cpp
+src/color_palette_model.cpp
+src/color_palette_widget.cpp
+src/color_preview.cpp
+src/color_selector.cpp
+src/color_utils.cpp
+src/color_wheel.cpp
+src/color_widgets.qrc
+src/gradient_slider.cpp
+src/hue_slider.cpp
+src/swatch.cpp
 )
 
 set(HEADERS
-include/color_palette_model.hpp
-include/color_palette_widget.hpp
-include/colorwidgets_global.hpp
-include/color_wheel.hpp
-include/color_line_edit.hpp
-include/swatch.hpp
-include/color_delegate.hpp
-include/color_palette.hpp
-include/hue_slider.hpp
-include/abstract_widget_list.hpp
-include/bound_color_selector.hpp
-include/color_dialog.hpp
-include/color_2d_slider.hpp
-include/color_selector.hpp
-include/color_list_widget.hpp
-include/color_preview.hpp
-include/gradient_slider.hpp
-include/color_names.hpp
+qt-color-widgets/abstract_widget_list.hpp
+qt-color-widgets/bound_color_selector.hpp
+qt-color-widgets/color_2d_slider.hpp
+qt-color-widgets/color_delegate.hpp
+qt-color-widgets/color_dialog.hpp
+qt-color-widgets/color_line_edit.hpp
+qt-color-widgets/color_list_widget.hpp
+qt-color-widgets/color_palette.hpp
+qt-color-widgets/color_palette_model.hpp
+qt-color-widgets/color_palette_widget.hpp
+qt-color-widgets/color_preview.hpp
+qt-color-widgets/color_selector.hpp
+qt-color-widgets/color_wheel.hpp
+qt-color-widgets/gradient_slider.hpp
+qt-color-widgets/hue_slider.hpp
+qt-color-widgets/swatch.hpp
 )
 
 qt5_wrap_cpp(SOURCES ${HEADERS})
@@ -67,6 +64,6 @@ qt5_add_resources(SOURCES src/color_widgets.qrc)
 # Library
 add_library(ColorWidgets-qt5 ${SOURCES})
 target_link_libraries(ColorWidgets-qt5 Qt5::Widgets)
-target_include_directories (ColorWidgets-qt5 PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
+target_include_directories (ColorWidgets-qt5 PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
 target_include_directories (ColorWidgets-qt5 PRIVATE ${CMAKE_CURRENT_BINARY_DIR})
 target_compile_definitions (ColorWidgets-qt5 PUBLIC QTCOLORWIDGETS_LIBRARY)

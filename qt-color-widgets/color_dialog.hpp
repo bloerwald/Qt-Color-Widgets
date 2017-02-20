@@ -22,9 +22,9 @@
 #ifndef COLOR_DIALOG_HPP
 #define COLOR_DIALOG_HPP
 
-#include "colorwidgets_global.hpp"
-#include "color_preview.hpp"
-#include "color_wheel.hpp"
+#include "qt-color-widgets/colorwidgets_global.hpp"
+#include "qt-color-widgets/color_preview.hpp"
+#include "qt-color-widgets/color_wheel.hpp"
 
 #include <QDialog>
 

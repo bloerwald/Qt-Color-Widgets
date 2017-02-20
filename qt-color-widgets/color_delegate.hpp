@@ -22,8 +22,6 @@
 #ifndef COLOR_DELEGATE_HPP
 #define COLOR_DELEGATE_HPP
 
-#include "qt-color-widgets/colorwidgets_global.hpp"
-
 #include <QAbstractItemDelegate>
 
 namespace color_widgets {
@@ -31,7 +29,7 @@ namespace color_widgets {
 /**
     Delegate to use a ColorSelector in a color list
 */
-class QCP_EXPORT ColorDelegate : public QAbstractItemDelegate
+class Q_DECL_EXPORT ColorDelegate : public QAbstractItemDelegate
 {
     Q_OBJECT
 public:

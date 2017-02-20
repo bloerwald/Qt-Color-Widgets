@@ -23,8 +23,6 @@
 #ifndef GRADIENT_SLIDER_HPP
 #define GRADIENT_SLIDER_HPP
 
-#include "qt-color-widgets/colorwidgets_global.hpp"
-
 #include <QSlider>
 #include <QGradient>
 
@@ -33,7 +31,7 @@ namespace color_widgets {
 /**
  * \brief A slider that mover on top of a gradient
  */
-class QCP_EXPORT GradientSlider : public QSlider
+class Q_DECL_EXPORT GradientSlider : public QSlider
 {
     Q_OBJECT
     Q_PROPERTY(QBrush background READ background WRITE setBackground)

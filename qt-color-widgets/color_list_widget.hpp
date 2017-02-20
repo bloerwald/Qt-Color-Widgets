@@ -27,7 +27,7 @@
 
 namespace color_widgets {
 
-class QCP_EXPORT ColorListWidget : public AbstractWidgetList
+class Q_DECL_EXPORT ColorListWidget : public AbstractWidgetList
 {
     Q_OBJECT
 

@@ -22,7 +22,6 @@
 #ifndef COLOR_WIDGETS_COLOR_2D_SLIDER_HPP
 #define COLOR_WIDGETS_COLOR_2D_SLIDER_HPP
 
-#include "qt-color-widgets/colorwidgets_global.hpp"
 #include <QWidget>
 
 namespace color_widgets {
@@ -30,7 +29,7 @@ namespace color_widgets {
 /**
  * \brief A 2D slider that edits 2 color components
  */
-class QCP_EXPORT Color2DSlider : public QWidget
+class Q_DECL_EXPORT Color2DSlider : public QWidget
 {
     Q_OBJECT
 

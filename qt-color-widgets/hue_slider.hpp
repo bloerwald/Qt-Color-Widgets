@@ -30,7 +30,7 @@ namespace color_widgets {
 /**
  * \brief A slider for selecting a hue value
  */
-class QCP_EXPORT HueSlider : public GradientSlider
+class Q_DECL_EXPORT HueSlider : public GradientSlider
 {
     Q_OBJECT
     /**

@@ -22,7 +22,6 @@
 #ifndef COLOR_WIDGETS_COLOR_LINE_EDIT_HPP
 #define COLOR_WIDGETS_COLOR_LINE_EDIT_HPP
 
-#include "qt-color-widgets/colorwidgets_global.hpp"
 #include <QLineEdit>
 #include <QColor>
 
@@ -41,7 +40,7 @@ namespace color_widgets {
  *  * Long hex strings  #ff0000ff
  *  * Function like     rgba(255,0,0,255)
  */
-class QCP_EXPORT ColorLineEdit : public QLineEdit
+class Q_DECL_EXPORT ColorLineEdit : public QLineEdit
 {
     Q_OBJECT
     Q_PROPERTY(QColor color READ color WRITE setColor NOTIFY colorChanged)

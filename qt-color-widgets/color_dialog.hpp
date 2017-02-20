@@ -22,7 +22,6 @@
 #ifndef COLOR_DIALOG_HPP
 #define COLOR_DIALOG_HPP
 
-#include "qt-color-widgets/colorwidgets_global.hpp"
 #include "qt-color-widgets/color_preview.hpp"
 #include "qt-color-widgets/color_wheel.hpp"
 
@@ -32,7 +31,7 @@ class QAbstractButton;
 
 namespace color_widgets {
 
-class QCP_EXPORT ColorDialog : public QDialog
+class Q_DECL_EXPORT ColorDialog : public QDialog
 {
     Q_OBJECT
     Q_ENUMS(ButtonMode)

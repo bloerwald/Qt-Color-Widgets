@@ -22,12 +22,10 @@
 #ifndef ABSTRACT_WIDGET_LIST_HPP
 #define ABSTRACT_WIDGET_LIST_HPP
 
-#include "qt-color-widgets/colorwidgets_global.hpp"
-
 #include <QSignalMapper>
 #include <QTableWidget>
 
-class QCP_EXPORT AbstractWidgetList : public QWidget
+class Q_DECL_EXPORT AbstractWidgetList : public QWidget
 {
     Q_OBJECT
 public:

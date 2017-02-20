@@ -28,11 +28,10 @@
 #include <QObject>
 #include <QPair>
 #include <QPixmap>
-#include "qt-color-widgets/colorwidgets_global.hpp"
 
 namespace color_widgets {
 
-class QCP_EXPORT ColorPalette : public QObject
+class Q_DECL_EXPORT ColorPalette : public QObject
 {
     Q_OBJECT
 
